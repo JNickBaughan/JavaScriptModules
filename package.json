@@ -1,0 +1,16 @@
+{
+  "name": "ESM",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "run-named-exports": "node ./2.namedExport/index.js",
+    "run-multi-named-exports": "node ./3.multiNamedExport/index.js",
+    "run-renamed-exports": "node ./4.renamedImport/index.js",
+    "run-default-export": "node ./5.defaultExport/index.js",
+    "run-default-object-export": "node ./6.defaultObjectExport/index.js",
+    "run-mixed-export": "node ./7.mixedExport/index.js",
+    "run-export-all-as": "node ./8.exportAllAs/index.js"
+  }
+}
